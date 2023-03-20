@@ -1,0 +1,68 @@
+// ASIDE -"NEWSLATTER"-"SUSCRIBITE"
+
+.promociones {
+    text-align: center;
+    font-family: $font-secundary;
+    color: $color-fontprimary;
+    font-size: 100%;
+    margin-top: 20px;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    background-color: $bg-color2;
+
+    .transition-aside {
+        width: auto;
+        height: auto;
+        background-color: #ffffff;
+        animation-name: SuscribiteAside;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-duration: 3s;
+        animation-delay: 0s;
+    }
+
+    @keyframes SuscribiteAside {
+        0% {
+            background-color: #ffffff;
+        }
+
+        25% {
+            background-color: #fea2e7;
+        }
+
+        40% {
+            background-color: #ff9ee7;
+        }
+
+        75% {
+            background-color: #fac2ec;
+        }
+
+        100% {
+
+            background-color: #ffffff;
+        }
+    }
+
+    .suscribirme {
+        text-align: center;
+        float: none;
+        height: 3%;
+        width: 3%;
+    }
+
+    .button-suscribirme {
+        margin-top: 10px;
+        @include buttom();
+
+        &:hover {
+            @include buttom();
+            background-color: $color-fontsecundary;
+            color: $bg-color;
+            box-shadow: $box-shadow;
+        }
+
+    }
+}
+
+// FIN ASIDE -"NEWSLATTER"-"SUSCRIBITE"

@@ -1,0 +1,27 @@
+@use './variables';
+@use './mixins';
+
+// GLOBALES
+
+.html {
+   font-size: 62.5%;
+   font-family: $font-primary;
+}
+
+
+h1 {
+   @include titles();
+}
+
+h2,
+h3 {
+   font-family: $font-primary;
+   color: $color-fontprimary;
+}
+
+p {
+   font-family: $font-primary;
+   color: $color-fontprimary;
+}
+
+// FIN GLOBALES

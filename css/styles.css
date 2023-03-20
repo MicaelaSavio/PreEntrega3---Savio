@@ -1,0 +1,570 @@
+.html {
+  font-size: 62.5%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #480006;
+  font-size: size(6);
+  font-weight: bold;
+  margin-top: 20px;
+  padding-top: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  background-color: #BF93AE;
+}
+
+h2,
+h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #480006;
+}
+
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #480006;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.encabezado-texto {
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-bottom: 0px;
+}
+
+.button-buscar {
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-top: 8px;
+  padding: 5px 10px;
+  border-radius: 50px;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 1px 10px;
+  color: #ffffff;
+  background-color: #BF93AE;
+}
+.button-buscar:hover {
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-top: 8px;
+  padding: 5px 10px;
+  border-radius: 50px;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 1px 10px;
+  color: #ffffff;
+  background-color: #BF93AE;
+  background-color: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  box-shadow: 2px 1px 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-itemdropdown {
+    display: none;
+  }
+}
+.container-carrito-whatsapp .soy-carrito,
+.container-carrito-whatsapp .soy-whatsapp {
+  display: flex;
+  align-items: center;
+  margin: 70px 10px;
+  justify-content: space-between;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  z-index: 100;
+}
+.container-carrito-whatsapp .soy-carrito.soy-whatsapp,
+.container-carrito-whatsapp .soy-whatsapp.soy-whatsapp {
+  margin-left: 80px;
+}
+@media (max-width: 768px) {
+  .container-carrito-whatsapp .soy-carrito,
+  .container-carrito-whatsapp .soy-whatsapp {
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-top: 8px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 1px 10px;
+    color: #ffffff;
+    background-color: #BF93AE;
+    width: 60px;
+    height: 60px;
+  }
+  .container-carrito-whatsapp .soy-carrito:hover,
+  .container-carrito-whatsapp .soy-whatsapp:hover {
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-top: 8px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 1px 10px;
+    color: #ffffff;
+    background-color: #BF93AE;
+    background-color: #ffffff;
+    color: black;
+    box-shadow: 2px 1px 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container-img-banner {
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+  }
+  .container-img-banner .soy-carrito,
+  .container-img-banner .soy-whatsapp {
+    width: 10px;
+    height: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container-carrito-whatsapp {
+    position: fixed;
+    top: 77px;
+    right: 140px;
+    width: 10px;
+    height: 10px;
+  }
+}
+.img-container-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.img-container-banner img {
+  width: 100px;
+  height: 100px;
+}
+.img-container-banner img.img-banner-index {
+  width: 100%;
+  height: auto;
+}
+
+.container-img50porciento {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.container-img50porciento .img-50porciento {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+/* MEDIA QUERIES - "img de %50off se ajusta a los valores de la pantalla"  */
+@media only screen and (min-width: 480px) and (max-with: 768px) {
+  .container-img50porciento {
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+.carrusel {
+  padding-top: 1%;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.carrusel ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-width: 710px;
+  scroll-behavior: smooth;
+}
+
+.carrusel-fotos {
+  display: flex;
+  gap: 10px;
+  overflow: auto;
+}
+
+.carrusel-fotos img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  object-fit: fill;
+}
+
+.carrusel-menu {
+  display: none;
+}
+
+@media screen and (min-width: 480px) {
+  .carrusel-fotos {
+    overflow: hidden;
+  }
+  .carrusel-fotos img {
+    width: 700px;
+    height: 600px;
+  }
+  .carrusel-menu {
+    display: block;
+  }
+  .carrusel-menu img {
+    width: 50px;
+    height: 40px;
+    border: 2px solid black;
+    box-sizing: border-box;
+  }
+  .carrusel-menu img:hover {
+    border-radius: none;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Cards*/
+.container-card {
+  width: 100%;
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+}
+.container-card .title-cards {
+  width: 100%;
+  max-width: 1080px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  color: #480006;
+}
+.container-card .card {
+  position: static;
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  transition: all 400ms ease-out;
+  cursor: default;
+}
+.container-card .card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+.container-card .card img {
+  width: 100%;
+  height: 210px;
+}
+.container-card .card .contenido-card {
+  padding: 15px;
+  text-align: center;
+}
+.container-card .card .contenido-card h3 {
+  margin-bottom: 15px;
+  color: #480006;
+}
+.container-card .card .contenido-card p {
+  line-height: 1.8;
+  color: #6a6a6a;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.container-card .card .contenido-card a {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #480006;
+  border: 2px solid black;
+  border-radius: 4px;
+  transition: all 400ms ease;
+  animation: shadow-drop-2-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+  margin-bottom: 5px;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-top: 8px;
+  padding: 5px 10px;
+  border-radius: 50px;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 1px 10px;
+  color: #ffffff;
+  background-color: #BF93AE;
+}
+@keyframes shadow-drop-2-center {
+  0% {
+    transform: translateZ(0);
+    box-shadow: 0 0 0 0 transparent;
+  }
+  100% {
+    transform: translateZ(50px);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.35);
+  }
+}
+.container-card .card .contenido-card a:hover {
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-top: 8px;
+  padding: 5px 10px;
+  border-radius: 50px;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 1px 10px;
+  color: #ffffff;
+  background-color: #BF93AE;
+  background-color: #ffffff;
+  color: black;
+  box-shadow: 2px 1px 10px;
+}
+
+/* MEDIA QUERIES de pagina de productos */
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .container-card {
+    flex-wrap: wrap;
+  }
+  .card {
+    margin: 100px;
+  }
+}
+/* PAGINA DE PROMOCIONES - TITULOS, SUBTITULOS, FONDO, BOTON Y MEDIA QUERIES */
+.animacionPromociones {
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  animation-name: animacionPromociones;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 3s;
+  animation-delay: 1s;
+}
+
+@keyframes animacionPromociones {
+  0% {
+    background-color: #ffffff;
+  }
+  25% {
+    background-color: #f790dd;
+  }
+  40% {
+    background-color: #fd9bf2;
+  }
+  75% {
+    background-color: #ff9ee7;
+  }
+  100% {
+    background-color: #ffd5fc;
+  }
+}
+#promociones h1 {
+  text-align: center;
+  color: rgb(252, 242, 242);
+}
+#promociones h2 {
+  color: #BF93AE;
+  margin-bottom: 100px;
+}
+#promociones .subtitle-promociones {
+  font-size: 24px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .img_promociones {
+    text-align: center;
+  }
+  .subtitle-promociones {
+    font-size: 16px;
+  }
+}
+/* Fondo de pagina de promociones */
+.contenedor-responsivo {
+  position: relative;
+  overflow: hidden;
+  padding-top: 100%;
+}
+.contenedor-responsivo .iframe-responsivo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  padding-bottom: 10%;
+}
+
+#container-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 100vh;
+  color: #fffdfa;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../img/imagen-contacto.jpeg");
+  margin: 0;
+}
+#container-form #form-contacto {
+  width: 400px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin: 20px;
+  border-radius: 7px;
+}
+#container-form #form-contacto #subtitle-contacto {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #BF93AE;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#container-form #form-contacto .text-form-contacto {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffecf7;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -10px;
+}
+@media screen and (max-width: 768px) {
+  #container-form #form-contacto .text-form-contacto {
+    font-size: 15px;
+    font-weight: normal;
+  }
+}
+#container-form #form-contacto .input-contacto,
+#container-form #form-contacto .textarea-contacto {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  font-size: 20px;
+}
+#container-form #form-contacto .textarea-contacto {
+  min-height: 100px;
+  max-height: 100px;
+  max-width: 100%;
+}
+@media screen and (max-width: 480px) {
+  #container-form #form-contacto {
+    width: 100%;
+  }
+}
+
+.promociones {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #480006;
+  font-size: 100%;
+  margin-top: 20px;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  background-color: #BF93AE;
+}
+.promociones .transition-aside {
+  width: auto;
+  height: auto;
+  background-color: #ffffff;
+  animation-name: SuscribiteAside;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 3s;
+  animation-delay: 0s;
+}
+@keyframes SuscribiteAside {
+  0% {
+    background-color: #ffffff;
+  }
+  25% {
+    background-color: #fea2e7;
+  }
+  40% {
+    background-color: #ff9ee7;
+  }
+  75% {
+    background-color: #fac2ec;
+  }
+  100% {
+    background-color: #ffffff;
+  }
+}
+.promociones .suscribirme {
+  text-align: center;
+  float: none;
+  height: 3%;
+  width: 3%;
+}
+.promociones .button-suscribirme {
+  margin-top: 10px;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-top: 8px;
+  padding: 5px 10px;
+  border-radius: 50px;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 1px 10px;
+  color: #ffffff;
+  background-color: #BF93AE;
+}
+.promociones .button-suscribirme:hover {
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-top: 8px;
+  padding: 5px 10px;
+  border-radius: 50px;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 1px 10px;
+  color: #ffffff;
+  background-color: #BF93AE;
+  background-color: #ffffff;
+  color: black;
+  box-shadow: 2px 1px 10px;
+}
+
+/* FOOTER - Logos de Redes sociales */
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-container .logos-footer {
+  width: 100%;
+  height: 100%;
+}
+.footer-container .logos-footer .img-logo-fb,
+.footer-container .logos-footer .img-logo-insta,
+.footer-container .logos-footer .img-logo-mail {
+  width: 100px;
+  height: 100px;
+}
+@media (max-width: 780px) {
+  .footer-container .logos-footer .img-logo-fb,
+  .footer-container .logos-footer .img-logo-insta,
+  .footer-container .logos-footer .img-logo-mail {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* FIN LOGOS FOOTER*/
+
+/*# sourceMappingURL=styles.css.map */

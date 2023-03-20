@@ -1,0 +1,73 @@
+// PAGINA DE CONTACTO - IMG FONDO, H2, FORMULARIO, MEDIA QUERIES
+
+#container-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    color: #fffdfa;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.1),
+            rgba(0, 0, 0, 0.1),
+            rgba(0, 0, 0, 0.1)), url("../img/imagen-contacto.jpeg");
+    margin: 0;
+
+    #form-contacto {
+        width: 400px;
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px 20px;
+        box-sizing: $box-sizing;
+        margin: 20px;
+        border-radius: 7px;
+
+        #subtitle-contacto {
+            font-family: $font-primary;
+            color: $bg-color2;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .text-form-contacto {
+            font-family: $font-primary;
+            background-color: #ffecf7;
+            text-align: center;
+            font-weight: $font-weight;
+            font-size: 30px;
+            margin-top: -10px;
+
+            @media screen and (max-width: 768px) {
+                font-size: 15px;
+                font-weight: normal;
+            }
+        }
+
+        .input-contacto,
+        .textarea-contacto {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 7px;
+            font-size: 20px;
+        }
+
+        .textarea-contacto {
+            min-height: 100px;
+            max-height: 100px;
+            max-width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        #form-contacto {
+            width: 100%;
+        }
+    }
+}
+
+// FIN PAGINA DE CONTACTO - IMG FONDO, H2, FORMULARIO, MEDIA QUERIES

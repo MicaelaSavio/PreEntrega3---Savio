@@ -1,0 +1,68 @@
+/* PAGINA DE PROMOCIONES - TITULOS, SUBTITULOS, FONDO, BOTON Y MEDIA QUERIES */
+
+
+.animacionPromociones {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    animation-name: animacionPromociones;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+
+@keyframes animacionPromociones {
+    0% {
+        background-color: #ffffff;
+    }
+
+    25% {
+        background-color: #f790dd;
+    }
+
+    40% {
+        background-color: #fd9bf2;
+    }
+
+    75% {
+        background-color: #ff9ee7;
+    }
+
+    100% {
+
+        background-color: #ffd5fc;
+    }
+
+}
+
+#promociones {
+    h1 {
+        text-align: center;
+        color: rgb(252, 242, 242);
+    }
+
+    h2 {
+        color: $bg-color2;
+        margin-bottom: 100px;
+    }
+
+    .subtitle-promociones {
+        font-size: size(3);
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .img_promociones {
+        text-align: center;
+    }
+
+    .subtitle-promociones {
+        font-size: size(2);
+
+    }
+}
+
+
+/* Fondo de pagina de promociones */

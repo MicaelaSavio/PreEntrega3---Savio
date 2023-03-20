@@ -1,0 +1,52 @@
+// MIXINS
+
+
+@mixin reset {
+    margin: 0;
+    padding: 0;
+    box-sizing: $box-sizing;
+}
+
+@mixin reset-pm {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin w-h {
+    width: 100px;
+    height: 100px;
+}
+
+@mixin display-text {
+    display: flex;
+    text-align: center;
+}
+
+@mixin titles {
+    text-align: center;
+    font-family: $font-secundary;
+    color: $color-fontprimary;
+    font-size: size(6);
+    font-weight: bold;
+    margin-top: 20px;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    background-color: $bg-color2;
+
+}
+
+@mixin buttom {
+    font-size: 0.9em;
+    font-weight: $font-weight;
+    margin-top: size(1);
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: $border-bottom;
+    box-shadow: $box-shadow;
+    color: $color-fontsecundary;
+    background-color: $bg-color2;
+
+}
+
+// FIN MIXINS

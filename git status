@@ -1,0 +1,35 @@
+[33mcommit 96d784137000b4ed3318f3a8b2a289d3951566da[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: MicaelaSavio <micaela.savio@hotmail.com>
+Date:   Mon Mar 20 20:40:16 2023 -0300
+
+    agrege a git.ignore los archivos json
+
+[33mcommit 4a25e4077f3dc9a0d8b749e5cff0cc03256e9463[m
+Author: MicaelaSavio <micaela.savio@hotmail.com>
+Date:   Mon Mar 20 20:38:37 2023 -0300
+
+    se cargo pdf a git.ignore
+
+[33mcommit 2fbe0652b8c3e986948fda2bef63bc1baacb796f[m
+Author: MicaelaSavio <micaela.savio@hotmail.com>
+Date:   Mon Mar 20 20:36:54 2023 -0300
+
+    Añadido archivo .gitignore y se agregó el archivo PDF a ignorar
+
+[33mcommit 224a3aa4b09aa4f7e0ffc947cb8e2cffe05195e4[m
+Author: MicaelaSavio <micaela.savio@hotmail.com>
+Date:   Sun Mar 19 02:56:25 2023 -0300
+
+    agregue sass al proyecto, modifique rutas
+
+[33mcommit cb20b6ecc9f90ac01e30d80d6962c0dee96059ba[m
+Author: MicaelaSavio <micaela.savio@hotmail.com>
+Date:   Mon Mar 6 18:31:11 2023 -0300
+
+    modifique ruta index
+
+[33mcommit e46f5ce7d7445e4b88b9f21d543b77db36647d88[m
+Author: MicaelaSavio <micaela.savio@hotmail.com>
+Date:   Mon Mar 6 18:20:21 2023 -0300
+
+    agregue todas las carpetas
